@@ -1,0 +1,81 @@
+/* VARIÁVEIS
+-------------------------------------------- */
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+
+
+
+/* RESET
+-------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* garante que os conteúdos teram extamente o tamanho definido */
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* GERAIS
+--------------------------------------------- */
+body{
+    background: var(--black);
+    font-family:  'Arial', Times, serif;
+    color: #fff;
+}
+
+
+/* CABEÇALHO
+--------------------------------------------- */
+/* geral */
+header .container{
+    display:  flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo */
+header .logo{
+    margin-left: 5px;
+    color: var(--red);
+    font-size: 40px;
+}
+
+/* links */
+header nav a{
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover{
+    color: #fff;
+}
+
+
+/* CONTEÚDO PRINCIPAL
+---------------------------------------------- */
+/* Serie em Destaque */
+.serie-princial{
+    font-size: 20px;
+    
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0,.50)100%), url('../img/modernFamily-capa.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-princial .titulo{
+    font-size: 40px;
+}
+
+.serie-princial .descricao{
+    margin-bottom: 40px;
+}
