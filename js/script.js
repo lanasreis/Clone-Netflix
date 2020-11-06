@@ -4,7 +4,7 @@ owl.owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:10000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     responsive:{
         0:{
@@ -14,7 +14,7 @@ owl.owlCarousel({
             items:4
         },
         1000:{
-            items:8
+            items:6
         }
     }
 });
