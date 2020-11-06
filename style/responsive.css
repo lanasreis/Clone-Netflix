@@ -5,7 +5,23 @@
     }
 
     header nav{
-        margin-top: 20px;
+        margin: 20px 0;
+    }
+
+        /* fixar header na tela */
+    .header.fixed{
+        position: fixed;
+        background-color: #000000e1;
+        width: 100%;
+        z-index: 1000;
+    }
+    .header.fixed img{
+        display: none;
+    }
+        
+    .serie-princial .container{
+        width: 55%;
+        margin-left: 40px;
     }
 
 }
