@@ -3,17 +3,28 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Netflix CLONE </title>
         <link rel="icon" href="img/icon-logo.png">
+    
+        <!-- FONTE-->
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Open+Sans&family=Poppins&family=Rubik&display=swap" rel="stylesheet">
+        
+        <!-- owl css-->
+        <link rel="stylesheet" href="style/owlCarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="style/owlCarousel/owl.theme.default.min.css">
+
         <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/responsive.css">
+
     </head>
     <body>
 
         <!-- CABEÇALHO -->
-        <header>
+        <header class="header fixed">
             <div class="container">
                 <!-- Título -->
-                <h2 class="logo">NETFLIX</h2>
+                <img src="img/nome-logo.png" alt="NETFLIX">
 
                 <!-- Navegação -->
                 <nav>
@@ -34,24 +45,95 @@
                 <div class="container">
                 
                     <!-- caracteristicas -->
-                    <h3 class="titulo">MODERN FAMILY</h3>
+                    <h3 class="title"><span class="modern">modern</span><span class="family">family</span></h3>
                     <p class="descricao">Uma grande e feliz família (heterossexual, gay, multicultural, tradicional). Esta série vencedora do Emmy acompanha a vida de Jay Pritchett e sua eclética família enquanto lidam com os desafios da vida contemporânea em Los Angeles.</p>
                 
                 
                     <!-- botoes -->
                     <div class="botoes">
                         <button role="button" class="botao">
-                            ASSISTIR
+                            ASSISTIR AGORA
+                            <i class="fas fa-play"></i>
                         </button>
                         <button role="button" class="botao">
                             MAIS INFORMAÇÕES
+                            <i class="fas fa-info-circle"></i>
                         </button>
                     </div>
-                </div>
 
+
+                    <div class="video">
+                        <iframe class="eu" width="560" height="315" src="https://www.youtube.com/embed/X0lRjbrH-L8?start=2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
 
             </div>
         </main>
 
+        <div class="carrosel-filmes">
+            <h3 class="title-box">Filmes em destaque</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class=".box-film" src="img/mini1.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini2.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini3.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini4.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini5.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini6.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini7.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini8.jpg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class=".box-film" src="img/mini9.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini10.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini11.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini12.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini13.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini14.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini15.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class=".box-film" src="img/mini16.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- olw script-->
+        <script src="js/owl/jquery.min.js"></script>
+        <script src="js/owl/owl.carousel.min.js"></script>
+
+        <!-- fontAwesome -->
+        <script src="https://kit.fontawesome.com/4c52503363.js" crossorigin="anonymous"></script>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
